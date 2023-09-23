@@ -260,3 +260,11 @@ li:hover,section.articles-container.container h4:hover{
     color: white;
     transition: all ease-in .5s;
 }
+footer {
+    text-align: center;
+    color: black;
+}
+a {
+    color: #f15d51;
+    font-weight: bold;
+}
