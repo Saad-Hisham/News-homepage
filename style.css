@@ -1,7 +1,9 @@
 * {
     font-family: 'Inter', sans-serif;
 }
-
+body{
+background:#fefdf9;
+}
 main {
     display: flex;
     min-height: 100vh;
