@@ -1,0 +1,260 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.container {
+    max-width: 1110px !important;
+}
+
+header.header-container img {
+    width: 100%;
+}
+
+nav.nav-bar ul {
+    display: flex;
+    list-style: none;
+    min-width: 439px;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 3px;
+
+
+}
+
+nav.nav-bar ul li {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.col-lg-10.list-items {
+    justify-content: end;
+    display: flex;
+}
+
+nav.nav-bar {
+    min-height: 51px;
+    align-items: center;
+    display: flex;
+}
+
+header.header-container {
+    margin-top: 50px;
+}
+
+.news-container {
+    background: #00001a;
+    color: white;
+    min-height: 512px;
+    padding-left: 28px;
+    padding-top: 39px;
+    max-width: 352px;
+}
+
+hr {
+    background: white;
+    height: 0.5px;
+    border: none;
+    width: 85%;
+    opacity: .5;
+}
+
+header.header-container h2 {
+    font-weight: bold;
+    color: #e8a846;
+    width: 85px;
+    font-size: 39px;
+}
+
+.news-container>div {
+    max-width: 280px;
+}
+
+.news-container>div p:nth-of-type(1) {
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.news-container>div p:nth-of-type(2) {
+    opacity: .6;
+    font-size: 14px;
+}
+
+h1 {
+    max-width: 285px;
+    font-weight: bolder;
+    font-size: 55px;
+    color: #110e29;
+}
+
+.col-lg-8.image-container .row .col-lg-6:nth-of-type(2) {
+    max-width: 336px;
+    font-size: 13px;
+    color: #575563;
+    margin-top: 16px;
+}
+
+.col-lg-8.image-container button {
+    border: none;
+    background: #f15d51;
+    color: white;
+    width: 185px;
+    font-size: 19px;
+    height: 47px;
+    margin-top: 16px;
+    outline: none;
+
+}
+
+.col-lg-8.image-container>.row {
+    margin-top: 30px;
+}
+
+article.col-lg-4 {
+    display: flex;
+    padding: 0;
+    display: flex;
+}
+
+article.col-lg-4 img {
+    width: 101px;
+}
+
+article.col-lg-4 div:nth-of-type(2) {
+    margin-left: 1rem;
+}
+
+section.articles-container.container h4 {
+    font-weight: bold;
+    max-width: 171px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+section.articles-container.container h4 span {
+    width: 35px;
+    display: inline-block;
+    font-size: 30px;
+    color: #c8c7cd;
+}
+
+section.articles-container.container article.col-lg-4 div:nth-of-type(2) {
+    width: 202px;
+}
+
+section.articles-container.container article.col-lg-4 div:nth-of-type(2) p {
+    font-size: 14px;
+    color: #6f6c75;
+}
+
+section.articles-container.container>.row {
+    justify-content: space-between;
+}
+
+section.articles-container.container {
+    margin-top: 69px;
+}
+
+
+
+.open-nav-div {
+    position: fixed;
+    right: 50px;
+    display: none;
+    cursor: pointer;
+    z-index: 2;
+}
+
+@media (max-width:992px) {
+    .button-container {
+        display: flex;
+    }
+
+    header.header-container {
+        margin-top: 66px;
+    }
+
+
+
+    .news-container {
+        margin-top: 2rem;
+
+    }
+
+    article.col-12.col-lg-4 {
+        margin-top: 2rem;
+        display: flex;
+    }
+
+    nav.nav-bar ul {
+        display: block;
+        min-width: 256px;
+        padding: 0;
+        margin: 0;
+        margin-top: 3px;
+        background: white;
+        position: fixed;
+        z-index: 1;
+        top: -3px;
+        min-height: 100vh;
+        padding-left: 2rem;
+
+    }
+
+    nav.nav-bar ul li {
+        padding-top: 33px;
+        font-weight: 400;
+    }
+
+    .open-nav-div {
+        display: block;
+    }
+
+    .open-nav-div img:nth-of-type(2) {
+        display: none;
+    }
+
+    nav.nav-bar {
+        min-height: 51px;
+        align-items: center;
+        display: flex;
+        position: fixed;
+        z-index: 99;
+        background: white;
+        width: 100%;
+        left: 0;
+    }
+}
+
+nav.nav-bar ul.open {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+nav.nav-bar ul.close {
+    display: none;
+}
+
+:root {
+    --animate-delay: 0.4s !important;
+}
+li:hover,section.articles-container.container h4:hover{
+    color: #e66260;
+    cursor: pointer;
+}
+.news-container>div p:nth-of-type(1):hover{
+    color: #e8a846;
+    cursor: pointer;
+}
+.col-lg-8.image-container button:hover{
+    background-color:#00001a;
+    color: white;
+    transition: all ease-in .5s;
+}
