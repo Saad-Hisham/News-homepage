@@ -171,6 +171,8 @@ section.articles-container.container {
     display: none;
     cursor: pointer;
     z-index: 2;
+    top: 16px;
+
 }
 
 @media (max-width:992px) {
