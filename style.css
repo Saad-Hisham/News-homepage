@@ -269,7 +269,12 @@ footer {
     color: black;
     margin-top: 2rem;
 }
-a {
+footer a {
     color: #f15d51;
     font-weight: bold;
+}
+button.open-nav-div {
+    border: none;
+    background: no-repeat;
+    outline: none;
 }
