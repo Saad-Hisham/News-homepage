@@ -30,6 +30,7 @@ function handleResize() {
     } else {
         document.querySelector("nav.nav-bar ul").classList.add("close")
         openIcon.style.display = "block"
+         openIcon.style.display = "none"
     }
 }
 
