@@ -165,7 +165,7 @@ section.articles-container.container {
 
 
 .open-nav-div {
-    position: fixed;
+    position: absolute;
     right: 50px;
     display: none;
     cursor: pointer;
