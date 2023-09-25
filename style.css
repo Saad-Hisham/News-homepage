@@ -133,7 +133,6 @@ article.col-lg-4 div:nth-of-type(2) {
 
 section.articles-container.container h4 {
     font-weight: bold;
-    max-width: 171px;
     font-size: 18px;
     font-weight: bolder;
 }
@@ -146,7 +145,8 @@ section.articles-container.container h4 span {
 }
 
 section.articles-container.container article.col-lg-4 div:nth-of-type(2) {
-    width: 202px;
+       max-width: 214px;
+
 }
 
 section.articles-container.container article.col-lg-4 div:nth-of-type(2) p {
